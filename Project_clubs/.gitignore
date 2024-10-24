@@ -19,5 +19,9 @@
 
 ###> symfony/asset-mapper ###
 /public/assets/
+<<<<<<< HEAD
 #/assets/vendor/
+=======
+/assets/vendor/
+>>>>>>> a94ef9c2cd5ca94689bd5f6ec7429cdb8a85fbcb
 ###< symfony/asset-mapper ###

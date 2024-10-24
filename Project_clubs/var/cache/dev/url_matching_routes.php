@@ -14,6 +14,14 @@ return [
         '/_profiler/phpinfo' => [[['_route' => '_profiler_phpinfo', '_controller' => 'web_profiler.controller.profiler::phpinfoAction'], null, null, null, false, false, null]],
         '/_profiler/xdebug' => [[['_route' => '_profiler_xdebug', '_controller' => 'web_profiler.controller.profiler::xdebugAction'], null, null, null, false, false, null]],
         '/_profiler/open' => [[['_route' => '_profiler_open_file', '_controller' => 'web_profiler.controller.profiler::openAction'], null, null, null, false, false, null]],
+<<<<<<< HEAD
+=======
+        '/create/event' => [[['_route' => 'app_create_event', '_controller' => 'App\\Controller\\CreateEventController::index'], null, null, null, false, false, null]],
+        '/delete/event' => [[['_route' => 'app_delete_event', '_controller' => 'App\\Controller\\DeleteEventController::index'], null, null, null, false, false, null]],
+        '/get/event' => [[['_route' => 'app_get_event', '_controller' => 'App\\Controller\\GetEventController::index'], null, null, null, false, false, null]],
+        '/list/events' => [[['_route' => 'app_list_events', '_controller' => 'App\\Controller\\ListEventsController::index'], null, null, null, false, false, null]],
+        '/update/event' => [[['_route' => 'app_update_event', '_controller' => 'App\\Controller\\UpdateEventController::index'], null, null, null, false, false, null]],
+>>>>>>> a94ef9c2cd5ca94689bd5f6ec7429cdb8a85fbcb
     ],
     [ // $regexpList
         0 => '{^(?'
